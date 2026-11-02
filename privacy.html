@@ -1,6 +1,6 @@
 <!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>nya: политика конфиденциальности</title><link rel="stylesheet" href="style.css"></head><body><main>
 <nav class="logo">nya</nav>
-<h1>Политика конфиденциальности</h1><p class="muted">Действует с 2 ноября 2026 года · <a href="#en">English version below</a></p>
+<h1>Политика конфиденциальности</h1><p class="muted">Действует с 3 ноября 2026 года · <a href="#en">English version below</a></p>
 <p>nya — приложение, которое подключается к серверам по подписке, которую вы получаете у своего сервиса. Разработчик nya не продаёт доступ к серверам через приложение и не показывает рекламу.</p>
 <h2>Какие данные использует приложение</h2>
 <ul>
@@ -13,18 +13,20 @@
 <p>При включённом VPN приложение создаёт зашифрованный туннель на устройстве и направляет трафик через сервер, который вы выбрали. Этот сервер принадлежит сервису, выдавшему подписку, а не разработчику nya, если только сервисом не является сам разработчик. Приложение не записывает посещённые сайты и не передаёт разработчику ваш трафик. Журнал работы хранится на устройстве, и вы можете его очистить.</p>
 <h2>Обращения к другим серверам</h2>
 <ul>
-<li>Файл настроек приложения загружается с sub.vpnya.com, чтобы показать уведомление о новой версии и объявления. Как при любом запросе, сервер видит IP-адрес и записывает его в технический журнал.</li>
+<li>Файл настроек приложения загружается с app.nyaclient.xyz (запасной адрес: sub.vpnya.com), чтобы показать уведомление о новой версии, объявления и рассылки. Новости и рассылки можно отключить в настройках. Как при любом запросе, сервер видит IP-адрес и записывает его в технический журнал.</li>
 <li>Если на устройстве не работает обычный DNS, приложение определяет адрес сервера подписки через защищённый DNS Cloudflare, Google или AdGuard. Этим службам передаётся имя сервера подписки. Защищённый DNS выбранного в настройках провайдера используется и при работе VPN.</li>
 <li>Проверка серверов обращается к выбранному в настройках адресу, по умолчанию gstatic.com.</li>
 </ul>
+<h2>Обезличенная статистика</h2>
+<p>Приложение отправляет разработчику на app.nyaclient.xyz случайный номер устройства (необратимый хеш, не совпадает с HWID), версию приложения и системы, модель, язык и страну устройства, источник установки, число и общую длительность подключений к VPN, а также отметку о получении рассылки. Так разработчик видит, сколько устройств пользуются приложением. IP-адрес при этом в статистику не записывается. Адреса серверов, ссылки подписок, посещённые сайты и объём трафика не отправляются. Отключить можно в настройках: «Обезличенная статистика». Данные хранятся, пока приложение развивается, но удалить их можно по запросу: напишите в Telegram и укажите номер устройства.</p>
 <h2>Что разработчик не делает</h2>
-<p>В приложении нет рекламы, аналитики и сторонних систем слежения. Разработчик не продаёт данные и не передаёт их третьим лицам, кроме случаев, описанных выше, и случаев, прямо предусмотренных законом.</p>
+<p>В приложении нет рекламы и сторонних систем слежения. Единственная статистика описана выше. Разработчик не продаёт данные и не передаёт их третьим лицам, кроме случаев, описанных выше, и случаев, прямо предусмотренных законом.</p>
 <h2>Хранение и удаление</h2>
 <p>Удалите подписку в приложении или само приложение, и данные исчезнут с устройства. Данные на стороне сервиса подписки регулируются его собственной политикой: обратитесь к нему. Учётных записей в nya нет.</p>
 <h2>Дети</h2><p>Приложение не предназначено для лиц младше 18 лет.</p>
 <h2>Изменения и контакты</h2><p>Новая версия политики появится на этой странице. Вопросы: <a href="https://t.me/yapycckuu">Telegram @yapycckuu</a>.</p>
 <hr id="en" style="border:0;border-top:1px solid #242427;margin:40px 0">
-<h1>Privacy Policy</h1><p class="muted">Effective November 2, 2026</p>
+<h1>Privacy Policy</h1><p class="muted">Effective November 3, 2026</p>
 <p>nya connects to servers using a subscription you obtain from your service provider. The app shows no ads and sells no server access itself.</p>
 <h2>Data the app uses</h2><ul>
 <li><b>Subscription link and server list</b> are stored only on your device, in the system's protected storage where available.</li>
@@ -33,10 +35,12 @@
 <li><b>Installed apps list (Android)</b> is used on the device only, to let you choose apps that bypass the VPN. It is never sent.</li></ul>
 <h2>How traffic is handled</h2><p>When the VPN is on, the app creates an encrypted tunnel on the device and routes traffic through the server you selected. That server belongs to your subscription provider. The app does not record visited sites and does not send your traffic to the developer. The log stays on your device and can be cleared.</p>
 <h2>Other connections</h2><ul>
-<li>A settings file is downloaded from sub.vpnya.com for update notices and announcements. As with any request, that server sees your IP address and keeps it in technical logs.</li>
+<li>A settings file is downloaded from app.nyaclient.xyz (backup: sub.vpnya.com) for update notices, announcements and news notifications, which you can turn off in settings. As with any request, that server sees your IP address and keeps it in technical logs.</li>
 <li>If normal DNS fails, the app resolves the subscription server through Cloudflare, Google or AdGuard secure DNS, which receive the server name. The secure DNS selected in settings is also used while the VPN is on.</li>
 <li>Server checks contact the address selected in settings, gstatic.com by default.</li></ul>
-<h2>What the developer does not do</h2><p>The app has no ads, analytics or third-party trackers. The developer does not sell data or share it except as described above or as required by law.</p>
+<h2>Anonymous statistics</h2>
+<p>The app sends the developer at app.nyaclient.xyz a random device number (a one-way hash, different from the HWID), the app and OS versions, device model, device language and region, install source, the number and total duration of VPN connections, and a mark that a news notification was received. This shows how many devices use the app. The IP address is not stored in the statistics. Server addresses, subscription links, visited sites and traffic volume are not sent. You can turn this off in settings under “Anonymous statistics”. To have your data deleted, contact us on Telegram with your device number.</p>
+<h2>What the developer does not do</h2><p>The app has no ads or third-party trackers. The only statistics are described above. The developer does not sell data or share it except as described above or as required by law.</p>
 <h2>Retention and deletion</h2><p>Remove the subscription or the app to delete this data from your device. Data held by your subscription provider is governed by its own policy. nya has no accounts.</p>
 <h2>Children</h2><p>The app is not intended for people under 18.</p>
 <h2>Changes and contact</h2><p>Updates appear on this page. Contact: <a href="https://t.me/yapycckuu">Telegram @yapycckuu</a>.</p>
