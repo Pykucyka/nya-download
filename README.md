@@ -14,12 +14,14 @@
 
 | Устройство | Файл |
 |---|---|
-| Android и Android TV | [nya-1.3.0-arm64.apk](https://github.com/Pykucyka/nya-download/releases/latest/download/nya-1.3.0-arm64.apk) |
-| Старые Android | [nya-1.3.0-armv7.apk](https://github.com/Pykucyka/nya-download/releases/latest/download/nya-1.3.0-armv7.apk) |
-| Linux | [nya-1.3.0-linux-x64.tar.gz](https://github.com/Pykucyka/nya-download/releases/latest/download/nya-1.3.0-linux-x64.tar.gz) |
+| Android и Android TV | [nya-1.4.0-arm64.apk](https://github.com/Pykucyka/nya-download/releases/latest/download/nya-1.4.0-arm64.apk) |
+| Старые Android | [nya-1.4.0-armv7.apk](https://github.com/Pykucyka/nya-download/releases/latest/download/nya-1.4.0-armv7.apk) |
+| Linux | [nya-1.4.0-linux-x64.tar.gz](https://github.com/Pykucyka/nya-download/releases/latest/download/nya-1.4.0-linux-x64.tar.gz) |
 | Windows | Скоро |
 | macOS | Скоро |
 | iPhone | Скоро |
+| Apple TV | Скоро |
+| Samsung и LG TV | Приложения на этих телевизорах не могут создать VPN. Подойдёт приставка на Android TV или Apple TV |
 
 ## Как установить на Android
 
